@@ -9,10 +9,12 @@ namespace Ejemplo_3
 {
     internal class Program
     {
-
+        #region atributos
         static int acum = 0;
         static int cont = 0;
+        #endregion
 
+        #region metodos
         static void IngresarNumero(int num) 
         {
             acum += num;
@@ -61,7 +63,7 @@ namespace Ejemplo_3
             Console.ReadKey();
         }
 
-
+        #endregion
 
         static void Main(string[] args)
         {
